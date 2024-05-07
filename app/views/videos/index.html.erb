@@ -1,0 +1,4 @@
+<h2>NoteTube</h2>
+<% @videos.each do |video| %>
+  <div><%= link_to video.title, video_path(video) %></div>
+<% end%>
